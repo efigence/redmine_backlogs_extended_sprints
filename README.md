@@ -1,6 +1,6 @@
 # Redmine Backlogs extended sprints plugin
 
-Redmine plugin for Backlogs users which enables displaying 'due date' for stories assigned to Sprints in Master Backlogs sprint tables.
+Redmine plugin for Backlogs users which enables displaying `due date` for stories assigned to Sprints in Master Backlogs sprint tables.
 
 # Requirements
 
