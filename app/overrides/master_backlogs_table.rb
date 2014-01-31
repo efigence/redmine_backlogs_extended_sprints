@@ -1,6 +1,4 @@
-Deface::Override.new(:virtual_path => "rb_master_backlogs/show",
+Deface::Override.new(:virtual_path => "rb_stories/_story",
                      :name => "master_backlogs_table",
-                     :replace => "h1",
-                     :text => "<h1>New Post</h1>")
-
-# "../../plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb"
+                     :insert_before => "div.status_id.editable.story_field",
+                     :text => "<div class='due_date editable story_field'><% if story.due_date %><div>due date: <%= story.due_date %></div><% end %></div>")

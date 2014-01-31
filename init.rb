@@ -17,3 +17,5 @@ Redmine::Plugin.register :redmine_backlogs_extended_sprints do
 
   settings :default => {}, :partial => 'settings/extended_sprints_settings'
 end
+
+require 'extended_sprints_base_layout_hook'
