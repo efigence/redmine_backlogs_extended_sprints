@@ -1,8 +1,6 @@
 # Redmine Backlogs selectable_storypoints plugin
 
-Redmine plugin for Backlogs users, which helps to keep consistent `story points` data across Redmine.
-
-It replaces 'Story points' `text field` with `select` on new & update issue pages. Options for select are exactly the same, as story points defined on Backlogs configuration page (as well as in projects' backlogs).
+Redmine plugin for Backlogs users which enables displaying 'due date' for stories assigned to Sprints in Master Backlogs sprint tables.
 
 # Requirements
 
@@ -11,13 +9,14 @@ Developed & tested on Redmine 2.3.3.
 # Installation
 
 1. Go to your Redmine installation's plugins/ directory.
-2. `git clone http://github.com/efigence/redmine_backlogs_selectable_storypoints`
+2. `git clone http://github.com/efigence/redmine_backlogs_extended_sprints`.
+3. Go back to Redmine root directory and run `bundle`.
 3. Restart Redmine.
 
 # Configuration
 
-To enable/disable plugins' functionality visit Administration -> Plugin. Afterwards, click on `Configure` link next to the plugin name. 
+To enable/disable plugins' functionality visit Administration -> Plugin. Afterwards, click on `Configure` link next to the plugin name.
 
-# Usage
+# Note
 
-After enabling plugin, select field will be present in place of input field next to the 'Story Points' label for new issue or when updating issue. 
+Plugin depends on [deface](https://github.com/spree/deface) gem which made it possible to extend original Backlogs views.
