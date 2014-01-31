@@ -1,0 +1,13 @@
+/*due date additions*/
+#backlogs_container .stories .story .due_date {
+  width:130px;
+  float:left;
+  padding-left: 8px;
+  white-space: nowrap;
+}
+
+.fff-right-wide {
+  float: left;
+  width: 250px;
+  margin-left: -250px;
+}
