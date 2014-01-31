@@ -1,6 +1,0 @@
-<%= check_box_tag "settings[extended_sprints]", '1', Setting.plugin_redmine_backlogs_extended_sprints.try(:[], 'extended_sprints') == '1', id: :extended_sprints %></td>
-<%= label_tag :extended_sprints, t('enable_extended_sprints') %></td>
-
-<% content_for :header_tags do %>
-  <%= javascript_include_tag 'settings_page', :plugin => 'redmine_backlogs_extended_sprints' %>
-<% end %>

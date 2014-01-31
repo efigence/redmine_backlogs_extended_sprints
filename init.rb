@@ -14,8 +14,6 @@ Redmine::Plugin.register :redmine_backlogs_extended_sprints do
   version '0.0.1'
   url 'http://github.com/efigence/redmine_backlogs_extended_sprints'
   author_url 'http://efigence.com'
-
-  settings :default => {}, :partial => 'settings/extended_sprints_settings'
 end
 
 require 'extended_sprints_base_layout_hook'
