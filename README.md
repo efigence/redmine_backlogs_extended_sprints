@@ -23,7 +23,7 @@ Plugin depends on [deface](https://github.com/spree/deface) gem which made it po
 
 # License
 
-    Redmine Accounting plugin
+    Redmine Backlogs extended sprints plugin
     Copyright (C) 2014  efigence S.A.
 
     This program is free software: you can redistribute it and/or modify
